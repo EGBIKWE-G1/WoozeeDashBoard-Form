@@ -1,0 +1,44 @@
+.app {
+   background-color:#f1f1f2 ;
+}
+.container-components1 {
+  background-color: #f8f8fb;
+  width: 30%;
+  padding: 2%;
+}
+
+.container-AddProduct {
+  background-color: #f8f8fb;
+  height: 130px;
+}
+.header{
+  color: #000;
+}
+
+
+.label-for-RegisterComponent {
+  font-weight: 600;
+    color: #282c34;
+}
+input[type="text"]{
+  background-color: #f1f1f2;
+  padding: 8%;
+  border: none;
+}
+
+input[type="textareas"] {
+  background-color: #f1f1f2;
+  padding: 19%;
+  border: none;
+  position: relative;
+}
+
+@media only screen and (max-width: 500px) {
+  .container-components1 {
+    width: 86%;
+    padding: 2%;
+  }
+  input[type="textareas"] {
+    padding: 25%;
+  }
+}
